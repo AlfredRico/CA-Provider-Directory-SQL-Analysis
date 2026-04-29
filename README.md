@@ -68,6 +68,7 @@ Additional geographic files were reviewed but were not necessary for the core SQ
 * Data Validation
 * KPI Reporting
 * Healthcare Provider Operations Analysis
+* Tableau
 
 ---
 
@@ -76,12 +77,16 @@ Additional geographic files were reviewed but were not necessary for the core SQ
 ```text
 CA-Provider-Directory-SQL-Analysis/
 ├── data/
+│   ├── CA_Physician_Directory_PUF.csv
+│   └── CA_Physician_Practice_Directory_PUF.csv
+│
 ├── sql/
 │   ├── 01_table_setup_and_schema_review.sql
 │   ├── 02_data_validation.sql
 │   ├── 03_credentialing_review.sql
 │   ├── 04_provider_practice_linkage.sql
 │   └── 05_reporting_summary.sql
+│
 ├── screenshots/
 │   ├── 03_missing_value_summary.png
 │   ├── 04_npi_structure_review.png
@@ -89,9 +94,22 @@ CA-Provider-Directory-SQL-Analysis/
 │   ├── 07_provider_practice_linkage_review.png
 │   ├── 09_join_validation.png
 │   └── 11_final_kpi_summary.png
+│
+├── tableau/
+│   ├── exports/
+│   │   ├── final_kpi_summary.csv
+│   │   ├── license_status_summary.csv
+│   │   ├── specialty_distribution.csv
+│   │   ├── practice_linkage_summary.csv
+│   │   └── practice_linkage_summary_tableau.csv
+│   │
+│   ├── dashboard_screenshots/
+│   │   └── main_dashboard.png
+│   │
+│   └── California_Provider_Directory_Dashboard.twb
+│
 └── README.md
 ```
-
 ---
 
 ## How to Review This Project
