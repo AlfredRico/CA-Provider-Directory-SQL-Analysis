@@ -1,4 +1,4 @@
-# California Provider Directory Quality & Credentialing Risk Analysis
+# CA Provider Directory SQL Analysis
 
 SQL | Google BigQuery | Data Validation | KPI Reporting | Healthcare Operations
 
