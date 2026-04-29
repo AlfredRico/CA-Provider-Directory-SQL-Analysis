@@ -106,6 +106,16 @@ CA-Provider-Directory-SQL-Analysis/
 
 ---
 
+## Tableau Dashboard
+
+![CA Provider Directory KPI Dashboard](tableau/dashboard_screenshots/main_dashboard.png)  
+Interactive dashboard built from the SQL reporting outputs and provider directory validation analysis.
+
+Tableau Public:  
+https://public.tableau.com/app/profile/alfred.rico/viz/CAProviderDirectoryKPIDashboard/CAProviderDirectoryKPIDashboard
+
+---
+
 ## Technical Implementation
 
 ### Table Validation and Schema Review
