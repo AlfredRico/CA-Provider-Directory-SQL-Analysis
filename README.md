@@ -1,6 +1,6 @@
 # CA Provider Directory SQL Analysis
 
-SQL | Google BigQuery | Data Validation | KPI Reporting | Healthcare Operations
+SQL | Google BigQuery | Data Validation | KPI Reporting | Tableau
 
 ---
 
