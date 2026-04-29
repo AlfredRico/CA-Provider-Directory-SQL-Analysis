@@ -182,7 +182,7 @@ Smaller categories such as Delinquent, Revoked, Cancelled, and Surrendered were 
 
 License expiration dates were reviewed to identify incomplete expiration tracking and provider review risk.
 
-Most records contained expiration dates earlier than the current date, while 14,933 records were missing expiration dates entirely.
+Many expiration dates reflect historical provider records because the dataset is a public use file rather than a live operational directory.
 
 Because the dataset is a public use file rather than a live operational directory, expiration date review was most useful for identifying incomplete credentialing fields and reporting limitations.
 
@@ -248,11 +248,10 @@ This created a clearer operational summary and better reflects how provider oper
 
 ## Final Summary
 
-This project applies SQL to provider directory validation, reporting readiness, and operational review using real healthcare provider data.
-
-The physician directory showed strong provider-level reliability through complete NPI coverage and consistent physician-to-practice joins, while incomplete license fields and missing practice linkage created the largest reporting limitations.
-
-This project demonstrates SQL-based validation, reporting, and operational decision support using real healthcare provider data.
+This project applies SQL to provider directory validation, reporting readiness, and operational review using real healthcare provider data. Across 111,996 physician records, provider identity remained highly reliable 
+with complete NPI coverage, valid provider-to-practice joins, and consistent specialty reporting. The main reporting gaps came from missing license status, incomplete expiration tracking, and 33,646 physicians missing 
+primary practice relationships, which limited provider eligibility review and practice-level reporting. This analysis shows how SQL can be used to identify reporting gaps, improve data reliability, and support stronger 
+operational decisions across credentialing, provider enrollment, and network reporting workflows.
 
 ---
 
