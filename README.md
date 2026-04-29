@@ -182,9 +182,8 @@ Smaller categories such as Delinquent, Revoked, Cancelled, and Surrendered were 
 
 License expiration dates were reviewed to identify incomplete expiration tracking and provider review risk.
 
-Many expiration dates reflect historical provider records because the dataset is a public use file rather than a live operational directory.
+Because this dataset is a public use file rather than a live operational directory, many expiration dates reflect historical provider records. As a result, reviewing expiration dates was more useful for identifying incomplete credentialing fields and reporting limitations than for measuring current provider status.
 
-Because the dataset is a public use file rather than a live operational directory, expiration date review was most useful for identifying incomplete credentialing fields and reporting limitations.
 
 ---
 
